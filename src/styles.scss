@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+
+//HEADER GOB
+.inverse2 {
+    background-color: #0C231E !important;
+    border-color: transparent !important;
+}
+
+
+/* FOOTER*/
+
+.main-footer2 {
+    background-color: #13322B;
+    min-height: 56px;
+    color: #FFF;
+    padding: 0px 0 0px;
+    text-align: left;
+    font-weight: 300;
+}
+
+.main-footer2 .list-info {
+    line-height: auto;
+    color: white;
+    background-size: cover;
+    background-position: bottom;
+    padding: 30px 10px 10px;
+}
+
+.main-footer2 .list-info h5 {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.main-footer2 .list-info ul {
+    margin: 0 0 60px;
+    padding: 0;
+}
+
+.main-footer2 .list-info ul li {
+    list-style-type: none;
+    margin: 0 0 2px;
+    padding: 0;
+    line-height: 110%;
+}
+
+.main-footer2 .list-info a {
+    color: #FFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.main-footer2 .list-info p {
+    margin-bottom: 15px;
+}
+
+.main-footer2 p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 136%;
+    height: auto;
+    position: static;
+}
+
+.footer-pleca2 {
+    background-color: #12322B;
+    background-image: url(https://framework-gb.cdn.gob.mx/landing/img/pleca.svg);
+    background-repeat: repeat-x;
+}
+
+
+/*Apply styles after scroll*/
+
+.scrolling-active {
+    position: fixed!important;
+    background-color: rgb(184 107 107)!important;
+    box-shadow: 0 3px 1rem rgba(0, 0, 0, .1)!important;
+    top: 0px!important;
+    margin-top: 0px!important;
+    z-index: 1000;
+    width: 100%;
+}
