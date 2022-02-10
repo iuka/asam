@@ -31,9 +31,9 @@
         </links>
     </mdb-navbar>
     <!-- Full Page Intro -->
-    <div class="view" style="background-image: url('../assets/img/back.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="view2" style="background-image: url('../assets/img/back.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
         <!-- Mask & flexbox options-->
-        <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
+        <div class="mask2 rgba-gradient d-flex justify-content-center align-items-center">
             <!-- Content -->
             <div class="container">
                 <!--Grid row-->
@@ -44,12 +44,12 @@
                         <hr class="hr-light">
                         <h5 class="mb-4">Dirección General de Materiales Educativos<br>
                             Dirección General de Desarrollo Curricular</h5>
-                        <a mdbBtn color="white" href="https://bit.ly/3IPovd7" mdbWavesEffect>Conoce más</a> 
+                        <a mdbBtn color="white" href="https://bit.ly/3IPovd7" target="_blank" mdbWavesEffect>Conoce el plan y los programas de estudio</a> 
                     </div>
                     <!--Grid column-->
                     <!--Grid column-->
                     <div class="col-md-6 col-xl-5 mt-xl-5 wow fadeInRight" data-wow-delay="0.3s">
-                        <img src="../assets/img/asambleas.svg" alt="" class="img-fluid">
+                        <img src="../assets/img/asambleas2.png" alt="" class="img-fluid">
                     </div>
                     <!--Grid column-->
                 </div>
@@ -97,30 +97,44 @@
                 <div class="row">
 
                     <!--Grid column-->
-                    <div class="col-md-6 mb-5">
-                        <img class="col-md-3" src="../assets/img/1.svg">
-                        <h5 class="black-text"> <br>
-                            Discusión, análisis y planteamiento de
-                            propuestas para la mejora del Plan y los
-                            programas de estudio 2022 entre la
-                            comunidad educativa, mediante una
-                            metodología participativa.</h5>
+                    <div class="col-md-6 col-sm-12 mb-5">
+                        <div class="row">
+                        <div class="col-xs-2  col-sm-2 col-md-2 col-lg-2">
+                            <img  class="img-fluid" width="100%" src="../assets/img/1.svg">
+                        </div>
+                        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                            <h5 class="black-text"> <br>
+                                Discusión, análisis y planteamiento de
+                                propuestas para la mejora del Plan y los
+                                programas de estudio 2022 entre la
+                                comunidad educativa, mediante una
+                                metodología participativa.</h5>
+                            </div>
+                        </div>
                     </div>
                     <!--Grid column-->
 
                     <!--Grid column-->
-                    <div class="col-md-6 mb-5">
-                        <img class="col-md-3" src="../assets/img/2.svg">
-                        <h5 class="black-text"><br>
-                            Sistematización de las propuestas que
-                            fortalecerán los documentos
-                            orientadores (pertinencia, relevancia e
-                            impacto en el aprendizaje de los
-                            educandos, así como el cumplimiento
-                            con el modelo de la Nueva Escuela
-                            Mexicana).</h5>
+                    <div class="col-md-6 col-sm-12 mb-5">
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                               <img  class="img-fluid" width="100%"  src="../assets/img/2.svg">
+                            </div>
+                            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                                <h5 class="black-text"> <br>
+                                    Sistematización de las propuestas que
+                                    fortalecerán los documentos
+                                    orientadores (pertinencia, relevancia e
+                                    impacto en el aprendizaje de los
+                                    educandos, así como el cumplimiento
+                                    con el modelo de la Nueva Escuela
+                                    Mexicana).</h5>
+                            </div> 
+                       </div>
                     </div>
                     <!--Grid column-->
+
+
                 </div>
 
         </div>
@@ -358,477 +372,151 @@
         <hr class="my-5">
     </section>
     <!--Section: Magazine v.2-->
-    <section class="magazine-section my-5" id="tres">
-        <!-- Section heading -->
-        <h2 class="h1-responsive font-weight-bold text-center my-5">Rutas</h2>
-        <!-- Nav Tabs -->
-        <mdb-tabset #staticTabs [vertical]="true" [buttonClass]="'md-pills text-center transparent'" [contentClass]="'card'">
-            <!--Panel 1-->
-            <mdb-tab heading="Semana 1">
-                <div class="row">
-                    <div class="col-12">
-                        <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="../assets/img/veracruz.jpg" alt="First slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Coatzacoalcos, Veracruz</h3>
-                                    <p>Lunes 31 de enero</p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="../assets/img/campeche.jpg" alt="Second slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Campeche, Campeche</h3>
-                                    <p>Martes 1 de febrero</p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="../assets/img/merida.jpg" alt="Third slide">
-                                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Mérida, Yucatán 
-                                    </h3>
-                                    <p>Miércoles 2 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Cancún, Quintana Roo
-                                    </h3>
-                                    <p>Jueves 3 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                        </mdb-carousel>
-                    </div>
-                </div>
-            </mdb-tab>
-            <!--Panel 2-->
-            <mdb-tab heading="Semana 2">
-                <div class="row">
-                    <div class="col-12">
-                        <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Tamaulipas, Tamaulipas
-                                    </h3>
-                                    <p>Lunes 7 de febrero 
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).webp" alt="Second slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Monterrey, Nuevo León
-                                    </h3>
-                                    <p>Martes 8 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).webp" alt="Third slide">
-                                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Torreón, Coahuila 
-                                    </h3>
-                                    <p>Miércoles 9 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Durango, Durango
+<section class="magazine-section my-5 mb-5" id="tres">
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold text-center my-5">Rutas</h2>
+    <!-- Nav tabs -->
+<mdb-tabset [buttonClass]="'pills-secondary white mb-2'" [contentClass]="'card'">
+    <!--Panel 1-->
+    <mdb-tab heading="Semana 1">
+      <div class="row">
+        <div class="col-12">
+<!-- Section: Blog v.1 -->
+<section class="my-5">
 
-                                    </h3>
-                                    <p>Jueves 10 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            
-                        </mdb-carousel>
-                    </div>
-                </div>
-            </mdb-tab>
-            <!--Panel 3-->
-            <mdb-tab heading="Semana 3">
-                <div class="row">
-                    <div class="col-12">
-                        <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Puebla, Puebla
-                                    </h3>
-                                    <p>Lunes 14 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).webp" alt="Second slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Oaxaca, Oaxaca
-                                    </h3>
-                                    <p>Martes 15 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).webp" alt="Third slide">
-                                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Tuxtla Gutiérrez, Chiapas
-                                    </h3>
-                                    <p>Miércoles 16 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).webp" alt="Third slide">
-                                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Tabasco, Tabasco
-                                    </h3>
-                                    <p>Jueves 17 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                        </mdb-carousel>
-                    </div>
-                </div>
-            </mdb-tab>
+    
+    <!-- Section description -->
+    
+  
+    <!-- Grid row -->
+    <div class="row">
+  
+      <!-- Grid column -->
+      <div class="col-lg-5">
+  
+        <!-- Featured image -->
+        <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4 waves-light" mdbWavesEffect>
+          <img class="img-fluid" src="../assets/img/semana1.png" alt="Sample image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+  
+        
+      </div>
+      <!-- Grid column -->
+  
+      <!-- Grid column -->
+      <div class="col-lg-7">
+  
+        <!-- Post title -->
+        <h5 class="font-weight-bold mb-3"><strong>Coatzacoalcos, Veracruz
+        </strong></h5>
+        <p><b>Martes 1 de febrero</b>&nbsp;&nbsp;
+        </p>
+        <hr>
 
-            <!--Panel 4-->
-            <mdb-tab heading="Semana 4">
-                <div class="row">
-                    <div class="col-12">
-                        <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).webp" alt="Second slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Chilpancingo, Guerrero
-                                    </h3>
-                                    <p>Lunes 21 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).webp" alt="Third slide">
-                                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Cuernavaca, Morelos
-                                    </h3>
-                                    <p>Martes 22 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Tlaxcala, Tlaxcala
-                                    </h3>
-                                    <p>Miércoles 23 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Pachuca, Hildago
-                                    </h3>
-                                    <p>Jueves 24 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                        </mdb-carousel>
-                    </div>
-                </div>
-            </mdb-tab>
+        <!-- Post title -->
+        <h5 class="font-weight-bold mb-3"><strong>Campeche, Campeche 
+        </strong></h5>
+        <p>Martes 1 de febrero
+        </p>
+        <hr>
+        <!-- Post title -->
+        <h5 class="font-weight-bold mb-3"><strong>Mérida, Yucatán 
+        </strong></h5>
+        <p>Miércoles 2 de febrero
+        </p>
+        <hr>
+        <!-- Post title -->
+        <h5 class="font-weight-bold mb-3"><strong>Cancún, Quintana Roo
+        </strong></h5>
+        <p>Jueves 3 de febrero
+        </p>
+  
+      </div>
+      <!-- Grid column -->
+  
+    </div>
+    <!-- Grid row -->
 
-            <!--Panel 5-->
-            <mdb-tab heading="Semana 5">
-                <div class="row">
-                    <div class="col-12">
-                        <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">San Luis Potosí, San Luis Potosí
-                                    </h3>
-                                    <p>Lunes 28 de febrero
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).webp" alt="Second slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Aguascalientes, Aguascalientes  
-                                    </h3>
-                                    <p>Martes 1 de marzo
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).webp" alt="Third slide">
-                                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Tepic, Nayarit
-                                    </h3>
-                                    <p>Miércoles 2 de marzo
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Culiacán, Sinaloa
-                                    </h3>
-                                    <p>Jueves 3 de marzo
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
+  
+  </section>
+  <!-- Section: Blog v.1 -->
+        </div>
+      </div>
+    </mdb-tab>
+    <!--Panel 2-->
+  
+    
+  </mdb-tabset>
+  
+</section>
 
-                        </mdb-carousel>
-                    </div>
-                </div>
-            </mdb-tab>
+<hr class="my-5">
+<section class="magazine-section my-5 mb-5" id="cuatro">
+    <!-- Section heading -->
+    <h2 class="h1-responsive font-weight-bold text-center my-5">Tu opinión es importante. Participa</h2>
+    <!-- Nav tabs -->
+<mdb-tabset [buttonClass]="'pills-secondary white mb-2'" [contentClass]="'card'">
+    <!--Panel 1-->
+    <mdb-tab heading="Semana 1">
+      <div class="row">
+        <div class="col-12">
+<!-- Section: Blog v.1 -->
+<section class="my-5">
 
-            <!--Panel 6-->
-            <mdb-tab heading="Semana 6">
-                <div class="row">
-                    <div class="col-12">
-                        <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Morelia, Michoacán 
-                                    </h3>
-                                    <p>Lunes 7 de marzo
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).webp" alt="Second slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Guanajuato, Guanajuato 
-                                    </h3>
-                                    <p>Martes 8 de marzo
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).webp" alt="Third slide">
-                                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Guadalajara, Jalisco</h3>
-                                    <p>Miércoles 9 de marzo</p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Colima, Colima
-                                    </h3>
-                                    <p>Jueves 10 de marzo
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
+    
+    <!-- Section description -->
+    
+  
+    <!-- Grid row -->
+    <div class="row">
 
-                        </mdb-carousel>
-                    </div>
-                </div>
-            </mdb-tab>
+      <!-- Grid column -->
+      <div class="col-lg-12" >
+  
+        <!-- Post title -->
+        <h5 class="font-weight -bold mb-3"><strong>Coatzacoalcos, Veracruz
+        </strong></h5>
+        <p><a class = "btn btn-primary" href="https://forms.gle/9tafEHg63MaKUdK18" target="_blank">Ir al formulario</a> 
+        </p>
+        <hr>
 
+        <!-- Post title -->
+        <h5 class="font-weight-bold mb-3"><strong>Campeche, Campeche 
+        </strong></h5>
+        <p>Martes 1 de febrero
+        </p>
 
-            <!--Panel 7-->
-            <mdb-tab heading="Semana 7">
-                <div class="row">
-                    <div class="col-12">
-                        <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Toluca, Estado de México
-                                    </h3>
-                                    <p>Lunes 14 de marzo
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).webp" alt="Second slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Ciudad de México
-                                    </h3>
-                                    <p>Martes 15 de marzo
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).webp" alt="Third slide">
-                                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Querétaro, Querétaro
-                                    </h3>
-                                    <p>Miércoles 16 de marzo
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Zacatecas, Zacatecas
-                                    </h3>
-                                    <p>Jueves 17 de marzo
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
+        <!-- Post title -->
+        <h5 class="font-weight-bold mb-3"><strong>Mérida, Yucatán 
+        </strong></h5>
+        <p>Miércoles 2 de febrero
+        </p>
 
-                        </mdb-carousel>
-                    </div>
-                </div>
-            </mdb-tab>
+        <!-- Post title -->
+        <h5 class="font-weight-bold mb-3"><strong>Cancún, Quintana Roo
+        </strong></h5>
+        <p>Jueves 3 de febrero
+        </p>
+  
+      </div>
+      <!-- Grid column -->
+  
+    </div>
+    <!-- Grid row -->
 
-           
-            <!--Panel 8-->
-            <mdb-tab heading="Semana 8">
-                <div class="row">
-                    <div class="col-12">
-                        <mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Chihuahua, Chihuahua 
-                                    </h3>
-                                    <p>Lunes 21 de marzo
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).webp" alt="Second slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Hermosillo, Sonora
-                                    </h3>
-                                    <p>Martes 22 de marzo 
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).webp" alt="Third slide">
-                                    <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">Mexicali, Baja California
-                                    </h3>
-                                    <p>Miércoles 23 de marzo 
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-                            <mdb-carousel-item>
-                                <div class=" w-100">
-                                    <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).webp" alt="First slide">
-                                    <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
-                                </div>
-                                <div class="carousel-caption">
-                                    <h3 class="h3-responsive">La Paz, Baja California Sur
-                                    </h3>
-                                    <p>Jueves 24 de marzo 
-                                    </p>
-                                </div>
-                            </mdb-carousel-item>
-
-                        </mdb-carousel>
-                    </div>
-                </div>
-            </mdb-tab> 
-
-
-        </mdb-tabset>
-    </section>
+  
+  </section>
+  <!-- Section: Blog v.1 -->
+        </div>
+      </div>
+    </mdb-tab>
+    <!--Panel 2-->
+  
+    
+  </mdb-tabset>
+</section>
 </div>
 <app-footer></app-footer>
