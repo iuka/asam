@@ -1,7 +1,5 @@
 /* Required for full background image */
 
-
-
 @media (max-width: 740px) {
     html,
     body,
@@ -67,3 +65,11 @@ h5 {
     font-family: 'Montserrat'!important;
 }
 
+.carousel-item {
+    &.active,
+    &.carousel-item-right,
+    &.carousel-item-next {
+        display: flex !important;
+        flex-wrap: wrap
+    }
+}
