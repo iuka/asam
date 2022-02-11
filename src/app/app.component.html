@@ -389,26 +389,26 @@
                                     <h5 class="font-weight-bold mb-3">
                                         <strong>Coatzacoalcos, Veracruz</strong>
                                     </h5>
-                                    <p><b>Martes 1 de febrero</b><button type="button" mdbBtn color="primary" class="relative waves-light" (click)="basicModal.show()" mdbWavesEffect>Ver Galería</button >&nbsp;&nbsp;</p>
+                                    <p>Martes 1 de febrero <button type="button" mdbBtn color="primary" class="relative waves-light" (click)="Estado(1)" mdbWavesEffect>Ver Galería</button >&nbsp;&nbsp;</p>
                                     <hr>
 
                                     <!-- Post title -->
                                     <h5 class="font-weight-bold mb-3">
                                         <strong>Campeche, Campeche </strong>
                                     </h5>
-                                    <p>Martes 1 de febrero</p>
+                                    <p>Martes 1 de febrero <button type="button" mdbBtn color="primary" class="relative waves-light" (click)="Estado(2)" mdbWavesEffect>Ver Galería</button ></p>
                                     <hr>
                                     <!-- Post title -->
                                     <h5 class="font-weight-bold mb-3">
                                         <strong>Mérida, Yucatán </strong>
                                     </h5>
-                                    <p>Miércoles 2 de febrero</p>
+                                    <p>Miércoles 2 de febrero<button type="button" mdbBtn color="primary" class="relative waves-light" (click)="Estado(3)" mdbWavesEffect>Ver Galería</button ></p>
                                     <hr>
                                     <!-- Post title -->
                                     <h5 class="font-weight-bold mb-3">
                                         <strong>Cancún, Quintana Roo</strong>
                                     </h5>
-                                    <p>Jueves 3 de febrero</p>
+                                    <p>Jueves 3 de febrero <button type="button" mdbBtn color="primary" class="relative waves-light" (click)="Estado(4)" mdbWavesEffect>Ver Galería</button ></p>
 
                                 </div>
                                 <!-- Grid column -->
@@ -450,26 +450,26 @@
                                     <h5 class="font-weight-bold mb-3">
                                         <strong>Tamaulipas, Tamaulipas</strong>
                                     </h5>
-                                    <p><b>Lunes 7 de febrero</b>&nbsp;&nbsp;</p>
+                                    <p>Lunes 7 de febrero <button type="button" mdbBtn color="primary" class="relative waves-light" (click)="Estado(5)" mdbWavesEffect>Ver Galería</button ></p>
                                     <hr>
 
                                     <!-- Post title -->
                                     <h5 class="font-weight-bold mb-3">
                                         <strong>Monterrey, Nuevo León</strong>
                                     </h5>
-                                    <p>Martes 8 de febrero</p>
+                                    <p>Martes 8 de febrero <button type="button" mdbBtn color="primary" class="relative waves-light" (click)="Estado(6)" mdbWavesEffect>Ver Galería</button ></p>
                                     <hr>
                                     <!-- Post title -->
                                     <h5 class="font-weight-bold mb-3">
                                         <strong>Torreón, Coahuila</strong>
                                     </h5>
-                                    <p>Miércoles 9 de febrero</p>
+                                    <p>Miércoles 9 de febrero <button type="button" mdbBtn color="primary" class="relative waves-light" (click)="Estado(7)" mdbWavesEffect>Ver Galería</button ></p>
                                     <hr>
                                     <!-- Post title -->
                                     <h5 class="font-weight-bold mb-3">
                                         <strong>Durango, Durango</strong>
                                     </h5>
-                                    <p>Jueves 10 de febrero</p>
+                                    <p>Jueves 10 de febrero <button type="button" mdbBtn color="primary" class="relative waves-light" (click)="Estado(8)" mdbWavesEffect>Ver Galería</button ></p>
 
                                 </div>
                                 <!-- Grid column -->
@@ -1037,32 +1037,4 @@
         </mdb-tabset>
     </section>
 </div>
-
-<div mdbModal #basicModal="mdbModal" class="modal fade right" tabindex="-1" role="dialog" aria-labelledby="myBasicModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close pull-right" aria-label="Close" (click)="basicModal.hide()">
-                    <span aria-hidden="true">×</span>
-                </button>
-                                        <br>
-
-                                </div>
-                                <div class="modal-body">
-                                    <mdb-carousel [controls]="true" [animation]="'fade'">
-                                        <mdb-carousel-item [interval]="10000">
-                                            <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="..." />
-                                        </mdb-carousel-item>
-                                        <mdb-carousel-item [interval]="2000">
-                                            <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="..." />
-                                        </mdb-carousel-item>
-                                        <mdb-carousel-item>
-                                            <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="..." />
-                                        </mdb-carousel-item>
-                                    </mdb-carousel>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-
-                <app-footer></app-footer>
+<app-footer></app-footer>

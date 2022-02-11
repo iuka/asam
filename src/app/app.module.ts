@@ -16,12 +16,16 @@ import { MdbTableEditorModule } from 'mdb-table-editor';
 import { MdbWysiwygModule } from 'mdb-wysiwyg';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { ModalComponent } from './modal/modal.component';
+
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +42,7 @@ import { HeaderComponent } from './header/header.component';
     MdbTableEditorModule,
     MdbWysiwygModule,
   ],
-  providers: [MDBSpinningPreloader],
+  providers: [MDBSpinningPreloader,{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent],
   schemas:      [ NO_ERRORS_SCHEMA ]
 })

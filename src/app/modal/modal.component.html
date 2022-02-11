@@ -1,0 +1,17 @@
+<div class="modal-header">
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">×</span>
+    </button><br>
+
+</div>
+<div class="modal-body">
+    <span *ngFor="let tab of Img">
+        <mdb-carousel [controls]="true" [animation]="'fade'" *ngIf="content.ident == tab.id">
+            <mdb-carousel-item *ngFor="let cimg of tab.content">
+                <img src="{{cimg.src}}" class="d-block w-100" alt="..." />
+            </mdb-carousel-item>
+    
+        </mdb-carousel>
+
+    </span>
+</div>
