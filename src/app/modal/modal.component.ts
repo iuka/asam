@@ -143,6 +143,21 @@ export class ModalComponent implements OnInit {
                       src: 'assets/img/galeria/8/6.JPG'
                     }
                   ]},
+                  {
+                  id:9,
+                  content:[
+                    {
+                      src: 'assets/img/galeria/9/1.JPG'
+                    }, {
+                      src: 'assets/img/galeria/9/2.JPG'
+                    }, {
+                      src: 'assets/img/galeria/9/3.JPG'
+                    }, {
+                      src: 'assets/img/galeria/9/4.JPG'
+                    }, {
+                      src: 'assets/img/galeria/9/5.JPG'
+                    }
+                  ]}
         
 
      
