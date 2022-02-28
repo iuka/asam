@@ -157,8 +157,131 @@ export class ModalComponent implements OnInit {
                     }, {
                       src: 'assets/img/galeria/9/5.JPG'
                     }
-                  ]}
-        
+                  ]},
+
+                    {
+                    id:10,
+                    content:[
+                      {
+                        src: 'assets/img/galeria/10/1.JPG'
+                      }, {
+                        src: 'assets/img/galeria/10/2.JPG'
+                      }, {
+                        src: 'assets/img/galeria/10/3.JPG'
+                      }, {
+                        src: 'assets/img/galeria/10/4.JPG'
+                      }, {
+                        src: 'assets/img/galeria/10/5.JPG'
+                      }, {
+                        src: 'assets/img/galeria/10/6.JPG'
+                      }
+                    ]},
+
+                    {
+                      id:11,
+                      content:[
+                        {
+                          src: 'assets/img/galeria/11/1.JPG'
+                        }, {
+                          src: 'assets/img/galeria/11/2.JPG'
+                        }, {
+                          src: 'assets/img/galeria/11/3.JPG'
+                        }, {
+                          src: 'assets/img/galeria/11/4.JPG'
+                        }, {
+                          src: 'assets/img/galeria/11/5.JPG'
+                        }, {
+                          src: 'assets/img/galeria/11/6.JPG'
+                        }, {
+                          src: 'assets/img/galeria/11/7.JPG'
+                        }, {
+                          src: 'assets/img/galeria/11/8.JPG'
+                        }
+                      ]},
+
+                      {
+                        id:12,
+                        content:[
+                          {
+                            src: 'assets/img/galeria/12/1.JPG'
+                          }, {
+                            src: 'assets/img/galeria/12/2.JPG'
+                          }, {
+                            src: 'assets/img/galeria/12/3.JPG'
+                          }, {
+                            src: 'assets/img/galeria/12/4.JPG'
+                          }, {
+                            src: 'assets/img/galeria/12/5.JPG'
+                          }
+                        ]},
+
+                        {
+                          id:13,
+                          content:[
+                            {
+                              src: 'assets/img/galeria/13/1.JPG'
+                            }, {
+                              src: 'assets/img/galeria/13/2.JPG'
+                            }, {
+                              src: 'assets/img/galeria/13/3.JPG'
+                            }, {
+                              src: 'assets/img/galeria/13/4.JPG'
+                            }, {
+                              src: 'assets/img/galeria/13/5.JPG'
+                            }
+                          ]},
+
+                          {
+                            id:14,
+                            content:[
+                              {
+                                src: 'assets/img/galeria/14/1.JPG'
+                              }, {
+                                src: 'assets/img/galeria/14/2.JPG'
+                              }, {
+                                src: 'assets/img/galeria/14/3.JPG'
+                              }, {
+                                src: 'assets/img/galeria/14/4.JPG'
+                              }, {
+                                src: 'assets/img/galeria/14/5.JPG'
+                              }, {
+                                src: 'assets/img/galeria/14/6.JPG'
+                              }
+                            ]},
+
+                            {
+                              id:15,
+                              content:[
+                                {
+                                  src: 'assets/img/galeria/15/1.JPG'
+                                }, {
+                                  src: 'assets/img/galeria/15/2.JPG'
+                                }, {
+                                  src: 'assets/img/galeria/15/3.JPG'
+                                }, {
+                                  src: 'assets/img/galeria/15/4.JPG'
+                                }, {
+                                  src: 'assets/img/galeria/15/5.JPG'
+                                }, {
+                                  src: 'assets/img/galeria/15/6.JPG'
+                                }
+                              ]},
+
+                              {
+                                id:16,
+                                content:[
+                                  {
+                                    src: 'assets/img/galeria/16/1.JPG'
+                                  }, {
+                                    src: 'assets/img/galeria/16/2.JPG'
+                                  }, {
+                                    src: 'assets/img/galeria/16/3.JPG'
+                                  }, {
+                                    src: 'assets/img/galeria/16/4.JPG'
+                                  }, {
+                                    src: 'assets/img/galeria/16/5.JPG'
+                                  }
+                                ]}
 
      
   ];

@@ -6,6 +6,23 @@
     border-color: transparent !important;
 }
 
+.inverse3 {
+    background-color: #10312B !important;
+    border-color: transparent !important;
+}
+
+#tres .pills-secondary .nav-link.active {
+    background-color: #BC955C!important;
+}
+
+#tres .btn-primary {
+    background-color: #235B4E!important;
+    color: #fff;
+}
+
+#cuatro .pills-primary .nav-link.active {
+    background-color: #BC955C!important;
+}
 
 /* FOOTER*/
 
@@ -83,3 +100,8 @@
 #formu .tab-content{
     box-shadow: none!important;
 }
+
+body {
+    font-family: "Montserrat"!important;
+  }
+

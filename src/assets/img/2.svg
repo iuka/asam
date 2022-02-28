@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 85.04 85.04" style="enable-background:new 0 0 85.04 85.04;" xml:space="preserve">
+	 viewBox="0 0 85 85" style="enable-background:new 0 0 85 85;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.4;fill:#E3E3E3;}
-	.st1{opacity:0.9;}
-	.st2{fill:url(#SVGID_1_);}
-	.st3{fill:url(#SVGID_2_);}
-	.st4{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st0{opacity:0.4;fill:#E3E3E3;enable-background:new    ;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:url(#SVGID_2_);}
+	.st3{fill:none;stroke:#000000;stroke-miterlimit:10;}
 </style>
 <g>
-	<circle class="st0" cx="34.74" cy="41.78" r="30.86"/>
+	<circle class="st0" cx="34.7" cy="41.8" r="30.9"/>
 </g>
 <g id="OBJECTS">
 </g>
-<g class="st1">
-	<g>
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="9.334" y1="23.126" x2="65.9883" y2="79.7803">
-			<stop  offset="0" style="stop-color:#B4379C"/>
-			<stop  offset="0.3919" style="stop-color:#3E64AD"/>
-			<stop  offset="1" style="stop-color:#0B9288"/>
-		</linearGradient>
-		<path class="st2" d="M43.1,37.1c1.85-2.62,2.78-5.15,2.78-7.59s-0.8-4.49-2.41-6.13c-1.61-1.64-3.67-2.46-6.18-2.46
-			c-4.61,0-8.97,3.28-13.09,9.85l-13.1-7.75c3.42-5.31,7.18-9.32,11.26-12.05c4.08-2.73,9.29-4.09,15.61-4.09s11.87,2.01,16.66,6.02
-			c4.78,4.02,7.18,9.48,7.18,16.39c0,3.77-0.96,7.39-2.88,10.84c-1.92,3.46-5.46,7.87-10.63,13.25l-13.2,13.73H64v14.66H12.35V69.62
-			l21.47-22C38.16,43.22,41.25,39.71,43.1,37.1z"/>
-	</g>
-</g>
-<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="71.3162" y1="79.403" x2="78.8382" y2="71.881">
-	<stop  offset="0" style="stop-color:#824AA3"/>
-	<stop  offset="0.3919" style="stop-color:#3E64AD"/>
-	<stop  offset="1" style="stop-color:#0B9288"/>
-</linearGradient>
-<circle class="st3" cx="75.08" cy="75.64" r="5.32"/>
-<circle class="st4" cx="77.63" cy="74.36" r="5.32"/>
 <g>
 	<g>
-		<path class="st4" d="M47.1,35.1c1.85-2.62,2.78-5.15,2.78-7.59s-0.8-4.49-2.41-6.13c-1.61-1.64-3.67-2.46-6.18-2.46
-			c-4.61,0-8.97,3.28-13.09,9.85l-13.1-7.75c3.42-5.31,7.18-9.32,11.26-12.05c4.08-2.73,9.29-4.09,15.61-4.09s11.87,2.01,16.66,6.02
-			c4.78,4.02,7.18,9.48,7.18,16.39c0,3.77-0.96,7.39-2.88,10.84c-1.92,3.46-5.46,7.87-10.63,13.25l-13.2,13.73H68v14.66H16.35V67.62
-			l21.47-22C42.16,41.22,45.25,37.71,47.1,35.1z"/>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="9.3452" y1="64.8665" x2="65.9908" y2="8.2208" gradientTransform="matrix(1 0 0 -1 0 88)">
+			<stop  offset="4.571455e-03" style="stop-color:#10312B"/>
+			<stop  offset="0.1117" style="stop-color:#163E36"/>
+			<stop  offset="0.2982" style="stop-color:#1D4E43"/>
+			<stop  offset="0.507" style="stop-color:#22584B"/>
+			<stop  offset="0.7823" style="stop-color:#235B4E"/>
+		</linearGradient>
+		<path class="st1" d="M43.1,37.1c1.8-2.6,2.8-5.1,2.8-7.6s-0.8-4.5-2.4-6.1c-1.6-1.6-3.7-2.5-6.2-2.5c-4.6,0-9,3.3-13.1,9.9
+			L11.1,23c3.4-5.3,7.2-9.3,11.3-12.1S31.6,6.9,38,6.9s11.9,2,16.7,6c4.8,4,7.2,9.5,7.2,16.4c0,3.8-1,7.4-2.9,10.8
+			C57,43.6,53.5,48,48.3,53.4L35.1,67.1H64v14.7H12.4V69.6l21.5-22C38.2,43.2,41.2,39.7,43.1,37.1z"/>
+	</g>
+</g>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="71.3182" y1="8.5982" x2="78.8418" y2="16.1218" gradientTransform="matrix(1 0 0 -1 0 88)">
+	<stop  offset="4.571455e-03" style="stop-color:#10312B"/>
+	<stop  offset="0.1117" style="stop-color:#163E36"/>
+	<stop  offset="0.2982" style="stop-color:#1D4E43"/>
+	<stop  offset="0.507" style="stop-color:#22584B"/>
+	<stop  offset="0.7823" style="stop-color:#235B4E"/>
+</linearGradient>
+<circle class="st2" cx="75.1" cy="75.6" r="5.3"/>
+<circle class="st3" cx="77.6" cy="74.4" r="5.3"/>
+<g>
+	<g>
+		<path class="st3" d="M47.1,35.1c1.8-2.6,2.8-5.1,2.8-7.6s-0.8-4.5-2.4-6.1c-1.6-1.6-3.7-2.5-6.2-2.5c-4.6,0-9,3.3-13.1,9.9
+			L15.1,21c3.4-5.3,7.2-9.3,11.3-12.1S35.6,4.9,42,4.9s11.9,2,16.7,6c4.8,4,7.2,9.5,7.2,16.4c0,3.8-1,7.4-2.9,10.8
+			C61,41.6,57.5,46,52.3,51.4L39.1,65.1H68v14.7H16.4V67.6l21.5-22C42.2,41.2,45.2,37.7,47.1,35.1z"/>
 	</g>
 </g>
 </svg>
